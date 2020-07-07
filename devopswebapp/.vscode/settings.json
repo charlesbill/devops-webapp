@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6acfd3c0-7d6f-45ef-a74b-f1bddc12268f/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/devopscoursecharles",
+    "appService.deploySubpath": "Publish"
+}

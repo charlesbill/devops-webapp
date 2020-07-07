@@ -1,0 +1,11 @@
+variables:
+    # Container registry service connection established during pipeline creation
+    dockerRegistryServiceConnection: devops-acr-connection
+    imageRepository: devops-course-repository
+    containerRegistry: devopscourseregistry
+    dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
+    tag: 'latest'
+
+    # Agent VM image name
+    vmImageName: 'ubuntu-latest'
+
